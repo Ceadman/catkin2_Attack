@@ -1,0 +1,7 @@
+<launch>
+
+    <node pkg="target_detection" type="velodyne_points_to_image" name="velodyne_points_to_image"/>
+
+    <include file="$(find aloam_velodyne_target_detection)/launch/aloam_velodyne_HDL_64.launch"/>
+
+</launch>

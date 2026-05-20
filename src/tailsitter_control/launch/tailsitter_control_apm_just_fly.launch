@@ -1,0 +1,3 @@
+<launch>
+	<node pkg="tailsitter_control" type="tailsitter_control_apm_just_fly" name="tailsitter_control_apm_just_fly" output="screen"/>
+</launch>

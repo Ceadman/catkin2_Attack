@@ -1,0 +1,7 @@
+<launch>
+	<node pkg="target_detection" type="image_detect.py" name="image_detect" output="screen"/>
+	<node pkg="target_detection" type="pod_image_receive.py" name="pod_image_receive" output="screen"/>
+	<node pkg="target_detection" type="pod communication.py" name="pod communication" output="screen"/>
+	<!-- <node pkg="tailsitter_control" type="pn_guidance.py" name="pn_guidance" output="screen"/> -->
+	<!-- <node pkg="tailsitter_control" type="tailsitter_control" name="tailsitter_control" output="screen"/> -->
+</launch>
